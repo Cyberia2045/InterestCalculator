@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Interest Calculator</title>
+<link rel="stylesheet" href="interest.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+
+<body>
+	
+<div class="interest-box">
+	
+	<form id="interest-calc">
+	
+		<p class="title">Check Your Future Net Worth</p>
+		<label>Principle($):</label>
+		<input id="principle" type="number" name="principle" placeholder="Principle"><br>
+		<label>Interest(%):</label>
+		<input id="interest" type="number" name="interest" placeholder="interest-rate"><br>
+		<label>Duration(Years):</label>
+		<input id="duration" type="number" name="duration" placeholder="duration"><br>
+		<button id="calculate">Calculate</button>
+	
+	</form>
+</div>
+
+		<h3 id="answer" class="net-worth"></h3>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="interest.js"></script>
+
+</body>
+</html>
